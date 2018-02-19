@@ -15,6 +15,8 @@
     "cors": "^2.8.4",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "express-static-zip": "^0.2.2",
+    "express-zip": "^2.0.1",
     "jsonwebtoken": "^8.1.0",
     "mongodb": "^2.2.33",
     "morgan": "^1.9.0",
