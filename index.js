@@ -165,7 +165,7 @@ else
 
 app.post("/save/admin2",function(req,res){
   console.log("innnnn");
-  db.collection('admin2inputs').save(req.body, (err, result) => {
+  db.collection('admin2').save(req.body, (err, result) => {
     if (err) return console.log(err)
 else    
     console.log('saved to database')
@@ -177,7 +177,7 @@ else
 
 app.post("/save/admin-input2",function(req,res){
   console.log("innnnn");
-  db.collection('admin2').save(req.body, (err, result) => {
+  db.collection('admin2inputs').save(req.body, (err, result) => {
     if (err) return console.log(err)
 else    
     console.log('saved to database')
